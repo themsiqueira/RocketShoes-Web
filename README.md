@@ -1,69 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# RocketShoes
 
-## Available Scripts
+Projeto desenvolvido utilizando reacjs, implementando arquitetura flux com redux e sagas, utilizando rea,tilizando reactotron para debug:
 
-In the project directory, you can run:
+# Como configurar o projeto:
+
+### 1. Instale o NodeJS
+
+- _NodeJS:_ https://nodejs.org/en/
+
+### 2. Instale o yarn ou npm
+
+- _yarn:_ https://yarnpkg.com/lang/en/
+
+- _npm:_ https://www.npmjs.com/get-npm
+
+# Rodando o projeto:
+
+Antes de iniciar instale as dependências do projeto:
+
+`yarn install`
+
+ou
+
+`npm install`
+
+## Scripts Disponíveis
+
+No diretório do projeto, pode se usar os comandos abaixo:
 
 ### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Roda a aplicação em mode de desenvolvimento.<br />
+Abra [http://localhost:3000](http://localhost:3000) para acessar no browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+A aplicação restart caso seja feita alguma alteração.<br />
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Roda os testes com jest, porém não há testes implementados ainda neste projeto.<br />
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builda o projeto para deploy em produção na pasta de `build`.<br />
 
 ### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Nota: esta é uma operação unidirecional. Depois de `ejetar`, você não pode voltar!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você não estiver satisfeito com a ferramenta de criação e as opções de configuração, poderá "ejetar" a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (Webpack, Babel, ESLint, etc) diretamente no seu projeto, para que você tenha controle total sobre eles. Todos os comandos, exceto o `eject`, ainda funcionarão, mas apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto, você está por sua conta.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-"# RocketShoes-Web" 
+Você nunca precisa usar 'ejetar'. O conjunto de recursos selecionados é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronta para isso.
