@@ -15,12 +15,10 @@ import { Container, Total, ProductTable } from './styles';
 
 function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
   function increment(product) {
-    console.tron.log(product);
     updateAmountRequest(product.id, product.amount + 1);
   }
 
   function decrement(product) {
-    console.tron.log(product);
     updateAmountRequest(product.id, product.amount - 1);
   }
 
